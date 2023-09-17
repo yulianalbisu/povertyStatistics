@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "css-loader": "^6.8.1",
     "typescript": "^5.2.2"
   },
   "outdir": "./build",
   "dependencies": {
     "@arcgis/core": "^4.27.6",
+    "@esri/arcgis-rest-request": "^4.2.0",
     "vite": "^4.4.9"
   }
 }
